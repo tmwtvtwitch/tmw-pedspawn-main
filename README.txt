@@ -19,17 +19,17 @@ want more zones?
 
 EXAMPLE:
 
-local noSpawnZone = {
-            --Auto Exotics
-			{x = 525.73, y = -165.12, z = 55.15},
-			{x = 523.21, y = -277.16, z = 49.98},
-			{x = 547.22, y = -282.73, z =  48.76},
-			{x = 556.33, y = -135.72, z = 60.06},
-	     --uwu cafe
-			{x = 1342.73, y = -165.12, z = 55.15},
-			{x = 1344.21, y = -277.16, z = 49.98},
-			{x = 1354.22, y = -282.73, z =  48.76},
-			{x = 1234.33, y = -135.72, z = 60.06}
-		}
+Citizen.CreateThread(function()
+	while true do
+		Wait(0)
+		
+		--auto exotic
+		ClearAreaOfPeds(x = 551.61, y = -179.19, z = 54.51, radius = 50)
+		ClearAreaOfVehicles(x = 525.73, y = -165.12, z = 55.15, radius = 50)
+		
+		--uwu cafe
+		ClearAreaOfPeds(x = 551.61, y = -179.19, z = 54.51, radius = 50)
+		ClearAreaOfVehicles(x = 525.73, y = -165.12, z = 55.15, radius = 50)
+end)
 
-RemovePedsAndVehiclesInArea(noSpawnZone[1].x, noSpawnZone[1].y, noSpawnZone[1].z, noSpawnZone[2].x, noSpawnZone[2].y, noSpawnZone[2].z, noSpawnZone[3].x, noSpawnZone[3].y, noSpawnZone[3].z, noSpawnZone[4].x, noSpawnZone[4].y, noSpawnZone[4].z,noSpawnZone[5].x, noSpawnZone[5].y, noSpawnZone[5].z, noSpawnZone[6].x, noSpawnZone[6].y, noSpawnZone[6].z, noSpawnZone[7].x, noSpawnZone[7].y, noSpawnZone[7].z, noSpawnZone[8].x, noSpawnZone[8].y, noSpawnZone[8].z)
+
