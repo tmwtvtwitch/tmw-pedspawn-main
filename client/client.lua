@@ -1,10 +1,6 @@
 Citizen.CreateThread(function()
 	while true do
 		Wait(0)
-
-		-- Get the player's current position
-		local playerPed = PlayerPedId()
-		local playerPos = GetEntityCoords(playerPed, true)
         
 		-- Define the no-spawn zone coordinates
 		local noSpawnZone = {
