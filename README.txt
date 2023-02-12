@@ -5,7 +5,7 @@ V. 1.0.0
 
 Description:
 
-a simple script to permanently remove peds from spawning in a specified zone.
+a simple script to permanently remove peds and ped vehicles from spawning in a specified zone.
 
 
 installation:
