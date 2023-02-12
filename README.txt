@@ -31,3 +31,5 @@ local noSpawnZone = {
 			{x = 1354.22, y = -282.73, z =  48.76},
 			{x = 1234.33, y = -135.72, z = 60.06}
 		}
+
+RemovePedsAndVehiclesInArea(noSpawnZone[1].x, noSpawnZone[1].y, noSpawnZone[1].z, noSpawnZone[2].x, noSpawnZone[2].y, noSpawnZone[2].z, noSpawnZone[3].x, noSpawnZone[3].y, noSpawnZone[3].z, noSpawnZone[4].x, noSpawnZone[4].y, noSpawnZone[4].z,noSpawnZone[5].x, noSpawnZone[5].y, noSpawnZone[5].z, noSpawnZone[6].x, noSpawnZone[6].y, noSpawnZone[6].z, noSpawnZone[7].x, noSpawnZone[7].y, noSpawnZone[7].z, noSpawnZone[8].x, noSpawnZone[8].y, noSpawnZone[8].z)
